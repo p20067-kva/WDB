@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+h2{
+    font-size: 5em;
+}
+
+p{
+    width: 95%;
+    margin:0 auto;
+    padding: 1em;
+    background-color: rgba(255,255,255,0.6);
+}
+h2, p{
+    font-weight: bolder;
+}
+
+.blue{
+    color: blue;
+}
+
+.hero-image{
+    height: 50vh;
+    margin-bottom: 10px;
+    padding: 1em;
+
+    background-color: lightgray;
+    background-image: url(image/kvaFesta001.jpg);
+    background-repeat: no-repeat;
+}
+
+.hero-image-short{
+    height: 50vh;
+    margin-bottom: 10px;
+    padding: 1em;
+
+    background: lightgray url(image/kvaFesta001.jpg) no-repeat center center / cover;
+ 
+}
